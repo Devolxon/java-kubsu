@@ -35,7 +35,7 @@ public class Options_assignments {
             try {
                 reciprocalArray[i] = 1.0 / array[i];
             } catch (ArithmeticException e) {
-                reciprocalArray[i] = 0.0; // Обработка деления на ноль
+                reciprocalArray[i] = 0.0;
             }
         }
         return reciprocalArray;
